@@ -7,3 +7,4 @@ class Solution:
             if target - num in num_idx:
                 return [i, num_idx[target - num]]
             num_idx[num] = i
+```
